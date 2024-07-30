@@ -83,7 +83,7 @@ class Footer extends Component {
               style={{ minHeight: "100px" }}
             >
               <div
-                className=""
+                className=" text-center"
                 style={{
                   display: "inline-block",
                 }}
@@ -91,11 +91,16 @@ class Footer extends Component {
                 <img
                   src="scan.png"
                   style={{
-                    width: "80%",
+                    width: "45%",
                     borderRadius: "8px",
                     border: "5px solid #fff",
                   }}
                 />
+                <div className="text-white text-center py-4">
+                  <b>
+                    <small>SCAN ME</small>
+                  </b>
+                </div>
               </div>
             </div>
           </div>
