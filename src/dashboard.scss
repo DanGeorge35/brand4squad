@@ -1,0 +1,182 @@
+$primary: #d98631;
+$secondary: #104791;
+
+.signupheader {
+  background-color: $primary;
+}
+
+.cover{
+  position: fixed;
+  left:0px;
+  right:0px;
+  top: 0px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.btn-warning{
+  background-color: #d98631;
+  color:white
+}
+.bg-warning{
+  background-color: #d98631 !important;
+  color:white
+}
+.bg-gradient{
+    background-image: linear-gradient(to bottom right,#713702,  #104791 ) !important;
+}
+.btn-warning:hover{
+  background-color: #ffb370 !important;
+  color: #000000;
+  border:1px solid #ddd;
+}
+.customer_logo{
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+.customer_section{
+  background-color: #ffffff;
+}
+.customer_logo div {
+background-color: #eff1ff;
+}
+.service{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0px 2px 5px #ffd0a0;
+  overflow: hidden;
+}
+.service_contents{
+
+}
+.service_icon{
+  height: 100px;
+}
+
+.gallery{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* FOOTER */
+.footer {
+  border-top: 10px solid black;
+}
+
+.bottomFooter {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  border-top: 1px solid #4c3d01;
+  padding: 15px 20px;
+  background-color: #01202ef9;
+  text-align: center;
+  color: white;
+}
+
+.footer .container-fluid {
+  background-color: #343738f9;
+}
+.footer .col-lg-6 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #003a51f9;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.footer .col-lg-2, .footer  .col-lg-2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footerHead {
+  display: block;
+  padding: 5px;
+  margin-bottom: 20px;
+  color: $primary;
+  font-weight: 700;
+  font-size: 18px;
+}
+.footerLink {
+  margin-top: 15px;
+  display: block;
+  padding: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.cHeader {
+  color: #fff !important;
+  display: block;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.footerIcon {
+  margin-right: 10px;
+  color: #fff;
+}
+
+
+a{
+  text-decoration: none !important;
+}
+.signupLeft{
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.registerLogo{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 25px 0px;
+}
+.registerForm{
+  background-color:#198754d1;
+  min-height: 50vh;
+  padding: 40px 0px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.registerForm input{
+background-color: #fff;
+}
+
+.form-control{
+    margin-bottom: 0px !important;
+    margin-top: 8px !important;
+}
+.AdminForm{
+  background-color:#4a4a4a;
+  min-height: 50vh;
+  padding: 40px 10px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.AdminForm input{
+background-color: #fff;
+}
+
+.signSlide > div {
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.react-slideshow-container .nav {
+  display: none;
+}
+.signSlideCover{
+  background-color: rgba(14, 12, 1, 0.557);
+}
+.show{
+  display: block;
+  background-color: #1858438f;
+}

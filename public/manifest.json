@@ -1,0 +1,25 @@
+{
+  "short_name": "Brand4Squad",
+  "name": "We empower entrepreneurs and professionals by crafting distinctive branding solutions that forge strong connections with their audience, driving recognition and growth",
+  "icons": [
+    {
+      "src": "icon.ong",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
