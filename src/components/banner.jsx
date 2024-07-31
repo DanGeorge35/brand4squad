@@ -19,7 +19,7 @@ class Banner extends Component {
       {
         url: "./lady-bg2.jpg",
         caption1: "Vibrant",
-        caption2: "Branding",
+        caption2: "Branded <br> xsquad",
         caption3:
           "A cutting-edge branding solution designed for entrepreneurs and professionals across various industries seeking to establish a unique brand identity. This innovative platform offers a comprehensive suite of professional branding services tailored to meet the unique needs of each client.",
         action: {
@@ -30,7 +30,7 @@ class Banner extends Component {
       {
         url: "./lady-bg2.jpg",
         caption1: "Join the",
-        caption2: "Best Brand",
+        caption2: "Branded <br> xsquad",
         caption3:
           "A cutting-edge branding solution designed for entrepreneurs and professionals across various industries seeking to establish a unique brand identity. This innovative platform offers a comprehensive suite of professional branding services tailored to meet the unique needs of each client.",
         action: {

@@ -17,12 +17,12 @@ class Home extends Component {
             <p
               className=""
               style={{
-                fontSize: "35px",
+                fontSize: "30px",
                 fontWeight: "700",
                 color: "#d98631",
               }}
             >
-              Our Branding Services
+              OUR BRANDING SERVICES
             </p>
             <label className="aboutContent" style={{ color: "#d98631" }}>
               Our cutting-edge branding solution platform is dedicated to

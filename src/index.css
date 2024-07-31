@@ -136,16 +136,16 @@ select option {
 }
 
 .react-slideshow-container + ul.indicators li {
-  width: 12px !important;
-  height: 12px !important;
-  margin: 6px;
+  width: 15px !important;
+  height: 15px !important;
+  margin: -10px 10px !important;
 }
 
 .react-slideshow-container + ul.indicators .each-slideshow-indicator:before {
-  width: 13px !important;
-  height: 13px !important;
-  background: rgb(255, 247, 0) !important;
-  box-shadow: 0px 0px 10px #ddd !important;
+  width: 15px !important;
+  height: 15px !important;
+  background: #d98631 !important;
+  box-shadow: 0px 0px 10px #d9b731 !important;
 }
 
 .SideMenu .SideContent {
@@ -337,7 +337,6 @@ select option {
   }
   .each-slide > div {
     background-size: cover;
-    height: 85vh;
   }
 
   .each-slide-child {
@@ -395,7 +394,6 @@ select option {
   }
   .each-slide > div {
     background-size: cover;
-    height: 85vh;
   }
 
   .each-slide-child {
@@ -440,7 +438,6 @@ select option {
 @media (min-width: 780px) and (max-width: 1093px) {
   .each-slide > div {
     background-size: cover;
-    height: 85vh;
   }
 
   .each-slide-child {
@@ -477,7 +474,6 @@ select option {
 @media (min-width: 1093px) {
   .each-slide > div {
     background-size: cover;
-    height: 99vh;
   }
 
   .each-slide-child {

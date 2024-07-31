@@ -11,7 +11,7 @@ class Navs extends Component {
           style={{ backgroundColor: "#fff" }}
         >
           <div
-            className="container text-center "
+            className="container-fluid text-center "
             style={{ height: "80px", width: "100vw" }}
           >
             <img src="/logo.png" alt="Cadence" style={{ height: "50px" }} />
