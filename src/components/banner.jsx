@@ -49,7 +49,7 @@ class Banner extends Component {
                     <br />
                     <br />
                     <div
-                      className="Slidedetails w3-small"
+                      className="Slidedetails w3-medium"
                       style={{ textShadow: "0px 0px 5px white" }}
                     >
                       {slideImage.caption3}
