@@ -214,7 +214,7 @@ select option {
   background-position: center;
 }
 .bg-img > div {
-  background-color: #0000008a;
+  background-color: #302f59d9;
 }
 .SideContent > div::after {
   content: "";
