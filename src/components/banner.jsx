@@ -18,7 +18,12 @@ class Banner extends Component {
       },
     ];
     return (
-      <Slide autoplay={false} arrows={false} indicators={false} infinite={true}>
+      <Slide
+        autoplay={false}
+        arrows={false}
+        indicators={false}
+        infinite={false}
+      >
         {images.map((slideImage, index) => (
           <div className="each-slide" key={index}>
             <p>
