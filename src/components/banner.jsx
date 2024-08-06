@@ -12,7 +12,7 @@ class Banner extends Component {
         caption3:
           "A cutting-edge branding solution designed for entrepreneurs and professionals across various industries seeking to establish a unique brand identity. This innovative platform offers a comprehensive suite of professional branding services tailored to meet the unique needs of each client.",
         action: {
-          title: "About",
+          title: "Contact Us",
           url: "https://calendly.com/squadtalent/client-engagement-call?month=2024-07",
         },
       },
