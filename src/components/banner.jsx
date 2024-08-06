@@ -8,7 +8,7 @@ class Banner extends Component {
       {
         url: "./lady-bg2.jpg",
         caption1: "Explore",
-        caption2: "Branded <br> xsquad",
+        caption2: "Branded <br> Xsquad",
         caption3:
           "A cutting-edge branding solution designed for entrepreneurs and professionals across various industries seeking to establish a unique brand identity. This innovative platform offers a comprehensive suite of professional branding services tailored to meet the unique needs of each client.",
         action: {
@@ -16,31 +16,9 @@ class Banner extends Component {
           url: "https://calendly.com/squadtalent/client-engagement-call?month=2024-07",
         },
       },
-      {
-        url: "./lady-bg2.jpg",
-        caption1: "Vibrant",
-        caption2: "Branded <br> xsquad",
-        caption3:
-          "A cutting-edge branding solution designed for entrepreneurs and professionals across various industries seeking to establish a unique brand identity. This innovative platform offers a comprehensive suite of professional branding services tailored to meet the unique needs of each client.",
-        action: {
-          title: "Contact Now",
-          url: "https://calendly.com/squadtalent/client-engagement-call?month=2024-07",
-        },
-      },
-      {
-        url: "./lady-bg2.jpg",
-        caption1: "Join the",
-        caption2: "Branded <br> xsquad",
-        caption3:
-          "A cutting-edge branding solution designed for entrepreneurs and professionals across various industries seeking to establish a unique brand identity. This innovative platform offers a comprehensive suite of professional branding services tailored to meet the unique needs of each client.",
-        action: {
-          title: "Get Started",
-          url: "https://calendly.com/squadtalent/client-engagement-call?month=2024-07",
-        },
-      },
     ];
     return (
-      <Slide autoplay={true} arrows={false} indicators={true} infinite={true}>
+      <Slide autoplay={false} arrows={false} indicators={false} infinite={true}>
         {images.map((slideImage, index) => (
           <div className="each-slide" key={index}>
             <p>
@@ -58,6 +36,8 @@ class Banner extends Component {
               <div className="each-slide-child container">
                 <div className="row">
                   <div className="col-lg-10">
+                    <p></p>
+                    <br />
                     <br />
                     <br />
                     <div className="Slidetop">{slideImage.caption1}</div>
@@ -69,7 +49,7 @@ class Banner extends Component {
                     <br />
                     <br />
                     <div
-                      className="Slidedetails"
+                      className="Slidedetails w3-small"
                       style={{ textShadow: "0px 0px 5px white" }}
                     >
                       {slideImage.caption3}
@@ -84,6 +64,9 @@ class Banner extends Component {
                         {slideImage.action.title}
                       </button>
                     </a>
+                    <p>
+                      <br />
+                    </p>
                   </div>
                 </div>
               </div>

@@ -16,6 +16,9 @@ $secondary: #104791;
   background-position: center;
   z-index: -1;
 }
+.text-warning{
+  color : $primary !important;
+}
 .btn-warning{
   background-color: #d98631;
   color:white

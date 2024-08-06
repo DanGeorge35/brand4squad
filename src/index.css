@@ -207,6 +207,15 @@ select option {
   background-color: #ddd;
 }
 
+.bg-img {
+  background-image: url(../public/brand.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-img > div {
+  background-color: #0000008a;
+}
 .SideContent > div::after {
   content: "";
   position: absolute;
@@ -263,6 +272,14 @@ select option {
   font-size: 90px;
 }
 
+.txtlarge {
+  font-size: 60px;
+}
+
+.txtlarger {
+  font-size: 80px;
+}
+
 .each-slide-child .Slidetitle {
   width: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -276,7 +293,7 @@ select option {
   display: block;
   width: 100%;
   color: #000000;
-  padding: 0px 15px;
+  padding: 15px;
   font-family: "Nanum Myeongjo", serif;
   font-weight: 700;
 }
@@ -345,6 +362,14 @@ select option {
     height: 100%;
   }
 
+  .txtlarge {
+    font-size: 30px;
+  }
+
+  .txtlarger {
+    font-size: 45px;
+  }
+
   .each-slide-child .Slidetop {
     font-weight: 700;
     font-size: 30px;
@@ -402,6 +427,20 @@ select option {
     height: 100%;
   }
 
+  .txtsmall {
+    font-size: 15px;
+  }
+  .txtmedium {
+    font-size: 25px;
+  }
+  .txtlarge {
+    font-size: 35px;
+  }
+
+  .txtlarger {
+    font-size: 55px;
+  }
+
   .each-slide-child .Slidetop {
     padding: 10px 20px;
     font-weight: 700;
@@ -446,6 +485,20 @@ select option {
     height: 100%;
   }
 
+  .txtsmall {
+    font-size: 20px;
+  }
+  .txtmedium {
+    font-size: 30px;
+  }
+  .txtlarge {
+    font-size: 50px;
+  }
+
+  .txtlarger {
+    font-size: 65px;
+  }
+
   .each-slide-child .Slidetop {
     padding: 10px 20px;
     font-weight: 700;
@@ -486,6 +539,20 @@ select option {
     font-size: 90px;
   }
 
+  .txtsmall {
+    font-size: 25px;
+  }
+  .txtmedium {
+    font-size: 35px;
+  }
+  .txtlarge {
+    font-size: 90px;
+  }
+
+  .txtlarger {
+    font-size: 100px;
+  }
+
   .each-slide-child .Slidetitle {
     font-size: 100px;
   }
@@ -495,7 +562,7 @@ select option {
   }
 
   .aboutContent {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
   }
 
@@ -512,8 +579,8 @@ a {
 
 .section {
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right bottom;
+  background-size: cover;
+  background-position: center;
   padding-top: 150px;
   padding-bottom: 150px;
 }
