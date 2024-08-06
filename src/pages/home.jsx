@@ -215,6 +215,100 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <div className=" ">
+          <div className=" section " style={{ backgroundColor: "#302f59" }}>
+            <div className="text-center pe-3 px-3">
+              <p
+                className="text-warning w3-large"
+                style={{
+                  fontWeight: "700",
+                }}
+              >
+                Our Clients
+              </p>
+              <label
+                className="aboutContent txtsmall"
+                style={{ color: "#fff" }}
+              >
+                "Effective branding is like a spotlightfor event promotion,
+                shining brightly to attract attention and leave a memorable
+                impression."
+              </label>
+            </div>
+            <div className="container pt-5 ">
+              <div className="row">
+                <div className="col-lg-4 ">
+                  <div
+                    className=" rounded-4 text-center p-0  my-4 gallery w3-white"
+                    style={{
+                      backgroundImage: "url(client1.png)",
+                      height: "300px",
+                      backgroundSize: "contain",
+                      backgroundPosition: "center",
+                    }}
+                  ></div>
+                </div>
+                <div className="col-lg-4 ">
+                  <div
+                    className=" rounded-4 text-center p-0  my-4 gallery w3-white"
+                    style={{
+                      backgroundImage: "url(client2.png)",
+                      height: "300px",
+                      backgroundSize: "contain",
+                      backgroundPosition: "center",
+                    }}
+                  ></div>
+                </div>
+                <div className="col-lg-4 ">
+                  <div
+                    className=" rounded-4 text-center p-0  my-4 gallery w3-white"
+                    style={{
+                      backgroundImage: "url(client3.png)",
+                      height: "300px",
+                      backgroundSize: "contain",
+                      backgroundPosition: "center",
+                    }}
+                  ></div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-lg-4 ">
+                  <div
+                    className=" rounded-4 text-center p-0  my-4 gallery w3-white"
+                    style={{
+                      backgroundImage: "url(client4.png)",
+                      height: "300px",
+                      backgroundSize: "contain",
+                      backgroundPosition: "center",
+                    }}
+                  ></div>
+                </div>
+                <div className="col-lg-4 ">
+                  <div
+                    className=" rounded-4 text-center p-0  my-4 gallery w3-white"
+                    style={{
+                      backgroundImage: "url(client5.png)",
+                      height: "300px",
+                      backgroundSize: "contain",
+                      backgroundPosition: "center",
+                    }}
+                  ></div>
+                </div>
+                <div className="col-lg-4 ">
+                  <div
+                    className=" rounded-4 text-center p-0  my-4 gallery w3-white"
+                    style={{
+                      backgroundImage: "url(client6.png)",
+                      height: "300px",
+                      backgroundSize: "contain",
+                      backgroundPosition: "center",
+                    }}
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <Footer />
       </div>
     );

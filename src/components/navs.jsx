@@ -21,7 +21,7 @@ class Navs extends Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav text-center  mb-2 mb-lg-0">
-                {/* <li
+                <li
                   className="nav-item"
                   style={{ paddingLeft: "80px", paddingTop: "30px" }}
                 ></li>
@@ -33,22 +33,22 @@ class Navs extends Component {
 
                 <li className="nav-item">
                   <NavLink
-                    to="/reservation"
+                    to="/whatwedo"
                     className="nav-link  "
                     aria-current="page"
                   >
-                    About
+                    What we do
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/contact"
+                    to="/about"
                     className="nav-link  "
                     aria-current="page"
                   >
-                    Contact
+                    Our Pricing
                   </NavLink>
-                </li> */}
+                </li>
               </ul>
             </div>
             <NavLink

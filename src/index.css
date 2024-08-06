@@ -81,14 +81,14 @@ select option {
 }
 
 .nav-link {
-  color: white;
-  font-weight: 400;
+  font-weight: 700 !important;
+  color: #262753 !important;
   font-size: 20px !important;
-  font-family: "Quicksand";
+
   transition: ease;
   transition-delay: 1s;
   transition-timing-function: linear;
-  padding: 10px 15px !important;
+  padding: 10px 25px !important;
 }
 .text-primary-color {
   color: #f7c400 !important;
@@ -97,8 +97,6 @@ select option {
 .nav-link:hover,
 .nav-link:focus {
   color: #ed9c40 !important;
-  font-weight: 700;
-  font-size: 18px;
 }
 
 .navbar-nav .nav-link.show {
@@ -319,9 +317,10 @@ select option {
 }
 
 .about-page {
+  background-image: url(../public/avan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: 40% 70%;
 }
 .about-page > div {
   height: 450px;

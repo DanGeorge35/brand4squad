@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./pages/home";
 import NoPage from "./pages/404";
 import About from "./pages/about";
+import Whatwedo from "./pages/whatwedo";
 
 function App() {
   let BASEURL = "https://cadencepub.com/production/";
@@ -14,7 +15,7 @@ function App() {
           <Route index element={<Home BASEURL={BASEURL} />} />
           <Route path="/" element={<Home BASEURL={BASEURL} />} />
           <Route path="/home" element={<Home BASEURL={BASEURL} />} />
-          <Route path="/About" element={<About BASEURL={BASEURL} />} />
+          <Route path="/whatwedo" element={<Whatwedo BASEURL={BASEURL} />} />
           <Route path="*" element={<NoPage BASEURL={BASEURL} />} />
         </Routes>
       </Router>
